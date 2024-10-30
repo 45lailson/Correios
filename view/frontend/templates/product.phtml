@@ -1,1 +1,20 @@
-<h4>Produto Personalizado</h4>
+<div class="quotation">
+    <div class="fieldset">
+        <div class="field">
+            <label for="zipcode" class="label"><?= __('Enter ZipCode')?></label>
+            <div class="control">
+                <input type="text" name="zipcode" id="zipcode" placeholder="12345-678" class="input-text"/>
+            </div>
+        </div>
+        <div class="display-quotation">
+            <span>Pac - Em até 07 dias R$ 10,00</span>
+        </div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "#zipcode" : {
+            "Lailson_Correios/js/script": {}
+        }
+    }
+</script>
